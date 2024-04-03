@@ -1,5 +1,5 @@
 *{
-    font-family: 'inter';
+    font-family: 'inter', sans-serif;
     margin: 0px;
 }
 
@@ -66,4 +66,59 @@
 #parag-historia{
     font-size: 18px;
     font-weight: 300;
+}
+
+/* SEÇÃO FORMULARIO */
+
+#sec-form{
+    background-color: #303030;
+    padding-top: 90px;
+    text-align: center;
+}
+
+#titulo-form{
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+}
+
+input{
+    margin-top: 35px;
+    height: 45px;
+    width: 480px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: #00000040;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+}
+
+button{
+    background-color: #C07212;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    width: 190px;
+    height: 45px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #FFF;
+    font-family: 'raleway', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ad660f;
+    color: #FFF;
+    transform: translateY(-3px);
+    transition-duration: 0.2s;
+    box-shadow: 0px 5px 5px #c0721265;
 }
