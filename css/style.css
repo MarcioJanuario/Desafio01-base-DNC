@@ -1,0 +1,28 @@
+*{
+    font-family: 'inter';
+    margin: 0px;
+}
+
+/* MENU SUPERIOR */
+
+#menu-superior{
+    background-color: #303030;
+    height: 475px;
+}
+
+#titulo-superior{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 206px 0px 0px 62px;
+}
+
+#subtitulo-superior{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0px 0px 62px;
+}
+
+/* DADOS DE MERCADO */
+
