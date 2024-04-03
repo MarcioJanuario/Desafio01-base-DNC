@@ -26,3 +26,44 @@
 
 /* DADOS DE MERCADO */
 
+#dados-mercado{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 100px 0px 100px 62px;
+}
+
+.texto-dados{
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.destaque-dados{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* SEÇÃO COM FOTO */
+
+#txt-com-foto{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 80px 54px 90px 62px;
+}
+
+#foto-estudio{
+    width: 510px;
+    margin-left: 64px;
+}
+
+#txt-historia{
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#parag-historia{
+    font-size: 18px;
+    font-weight: 300;
+}
