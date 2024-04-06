@@ -1,5 +1,5 @@
 *{
-    font-family: 'inter', sans-serif;
+    font-family: 'inter';
     margin: 0px;
 }
 
@@ -7,21 +7,22 @@
 
 #menu-superior{
     background-color: #303030;
-    height: 475px;
+    color: aliceblue;
 }
 
 #titulo-superior{
-    color: #FFF;
     font-weight: 600;
     font-size: 60px;
-    padding: 206px 0px 0px 62px;
+    margin-left: 50px;
+    padding-top: 50px;
 }
 
 #subtitulo-superior{
-    color: #FFF;
     font-weight: 500;
     font-size: 20px;
-    margin: 20px 0px 0px 62px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 
 /* DADOS DE MERCADO */
@@ -30,7 +31,8 @@
     background-color: #F9F9F9;
     display: grid;
     grid-auto-flow: column;
-    padding: 100px 0px 100px 62px;
+    columns: auto;
+    padding: 50px;
 }
 
 .texto-dados{
@@ -48,19 +50,21 @@
 #txt-com-foto{
     display: grid;
     grid-auto-flow: column;
-    margin: 80px 54px 90px 62px;
+    columns: auto;
 }
 
 #foto-estudio{
-    width: 510px;
-    margin-left: 64px;
+    width: 300px;
+    margin: 50px 0px 50px 20px;
 }
 
 #txt-historia{
-    margin-top: 200px;
+    margin-top: 120px;
+    margin-left: 50px;
     font-size: 35px;
     font-weight: 500;
     text-align: justify;
+    color: #000000;
 }
 
 #parag-historia{
@@ -72,27 +76,29 @@
 
 #sec-form{
     background-color: #303030;
-    padding-top: 90px;
     text-align: center;
 }
 
 #titulo-form{
     text-align: center;
     color: #FFF;
-    font-size: 32px;
+    font-size: 20px;
+    margin: 25px;
+    padding-top: 50px;
 }
 
 input{
-    margin-top: 35px;
-    height: 45px;
-    width: 480px;
+    margin: 15px;
+    height: 40px;
+    width: 300px;
     border: 0px;
     border-radius: 5px;
-    padding-left: 15px;
+    padding-left: 10px;
     font-size: 16px;
     font-family: 'raleway', sans-serif;
     font-weight: 500;
     color: #333;
+    background-color: #EAECE5;
 }
 
 input::placeholder{
@@ -103,10 +109,10 @@ input::placeholder{
 
 button{
     background-color: #C07212;
-    margin-top: 40px;
-    margin-bottom: 90px;
-    width: 190px;
-    height: 45px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 40px;
     border: 0px;
     border-radius: 5px;
     font-size: 18px;
@@ -117,9 +123,9 @@ button{
 }
 
 button:hover{
-    background-color: #ad660f;
+    background-color: #FF8C00;
     color: #FFF;
-    transform: translateY(-3px);
-    transition-duration: 0.2s;
-    box-shadow: 0px 5px 5px #c0721265;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #05103081;
 }
